@@ -63,7 +63,7 @@ export default class Presentation extends React.Component {
             <Heading size={1} fit caps>
               With Socket.io & Leap Motion
             </Heading>
-            <Link href="https://github.com/FormidableLabs/spectacle">
+            <Link href="https:twitter.com/wisamjs">
               <Text bold caps textColor="tertiary">@wisamjs</Text>
             </Link>
           </Slide>
