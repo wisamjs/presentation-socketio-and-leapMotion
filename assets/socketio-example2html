@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Who's here?!</title>
+</head>
+<body>
+  We have <span id="total"></span> connection(s)!
+</body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+    socket.on('total', function(num) {
+      document.getElementById('total').textContent = '' + num;
+    });
+
+  </script>
+</html>
